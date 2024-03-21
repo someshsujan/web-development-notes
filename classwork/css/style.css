@@ -1,0 +1,38 @@
+body{
+    background-color : blue;
+    
+}
+.info{
+    color : white;
+    border : 2px solid black;
+    padding : 20px ;/* gets applied for all sides but can be customised for each  side*/
+    
+}
+.main{
+    /* example of padding customisation*/ 
+    padding : 20px 20px 0 0; /* padding is applied in clock wise so only top and right side of the box will have 20px padding rest will have zero */
+    font-size : 20px;
+}
+/* here info is the class name
+/* use a class selector eg : .about-me-class
+/* a single tag can conyain multiple classes  eg: <p class = info main >i am a paragraph</p> here
+info is one class and main  one class
+
+
+
+
+ID SELECTORS
+/* "#" is used to define the id of a tag and styles can be made eg : #submit-me{ }
+*/
+#submit-button{
+     padding: 20px 0 ;/* here 20px will be applied to the top and bottom and left and right will be 0 */
+     background-color : red;
+}
+
+/* box model*/
+/* can be found in the inspect tab in the browserwhich specifies three things padding , border , margin with pixels of a specifci element */
+
+/* styling Divs */ 
+/* style different types of shapes using height,width,background-color ,transform, border-radius */
+
+

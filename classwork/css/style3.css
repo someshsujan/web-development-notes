@@ -1,0 +1,25 @@
+h1{
+    text-shadow: 5px 7px 5px green , -5px -7px 5px green;
+}
+/* here the first two parameters are used to change the position of the shadow*/
+div{
+    height : 200px;
+    width: 300px;
+    box-shadow : 0 3px 8px rgba(255,0,0,0.24), 0 13px 27px -5px rgba(50,50,93,0.25);
+    border : 1px solid rgba(0,0,0,0.3);
+    border-radius : 30%; 
+}
+/* link styling*/
+a{
+    color: green;
+    text-decoration: none;
+}
+a:visited{
+    color: coral;
+}
+a:hover{
+    color: purple;
+}
+a:active{
+    color: yellow;
+}

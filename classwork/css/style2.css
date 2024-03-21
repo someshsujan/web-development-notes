@@ -1,0 +1,76 @@
+.circle{
+    height : 50px;
+    width : 100px;
+    border-radius: 100px/50px;
+    background-color :blue;
+}
+/* here 50 % is basically 50 percent of smallest quantity of height and width*/
+.parallelogram{
+    height : 50px;
+    width : 100px;
+    transform: skewX(-40deg);
+    background-color: rgb(128, 158, 128);
+    margin-left: 20px;
+}
+/* tranfrom styling element is used to bend the 
+/* margin-left : decides margin space on the left*/
+/* rgb */ 
+/* 0-255*/
+h1{
+    color: rgb(128, 158, 128);
+}
+/* HEX 
+syntax(#RRGGBB)
+0-ff is the range */
+h2{
+    color:#ff0000;
+}
+/*rgba (red,green,blue,opacity)
+opacity of the can changed using rgba parameters*/
+.square{
+    height : 100px;
+    width : 50px; 
+    background-color : rgba(255,0,0,0.2);
+}
+/* gradients in css
+linear-gradient()
+radial-gradient()
+conic-gradient()
+*/
+div{
+    height : 300px;
+    width : 700px;
+    background-image: linear-gradient(37deg, yellow,green ,blue,rgba(225,0,0,0.5));
+}
+
+.square{
+    height : 300px;
+    width : 400px;
+    background-image: repeating-linear-gradient (to left, yellow 30% , red 60% )
+}
+/* below syntax is used to create triangle */
+/* .triangle{
+    height : 100%;
+    width : 100%;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid transparent;
+
+} */
+.triangle{
+    height: 300px;
+    width : 700px;
+    background-image: radial-gradient( circle, green 5% ,blue 30% ,red 70% ,yellow 50%);
+}
+/* the radial gradient by default it is oval in shape */
+/* any parameters can be used such as closest-side , farthest-side ,closest-corner, farthest-corner */
+
+.conic-gradient{
+    height: 300px;
+    width: 200px;
+    background-image :conic-gradient(at 70% 50% ,green,blue);
+}
+/* the gradient can be adjusted horizontally and vertically using percentage here 70 is horizontal and 50 is vertical*/
+/* there are repeating gradient for all the there gradinets */
+/* shadow propertites text-shadow and box-shadow*/
+

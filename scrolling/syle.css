@@ -1,0 +1,9 @@
+section {
+    background-color : red;
+    height : 500px;
+    width : 500px;
+    margin : 10px;
+}
+html{
+    scroll-behavior:smooth;
+}

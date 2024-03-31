@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link href = "/Users/someshs/Desktop/web-development-notes/forms/style.css" rel = "stylesheet" />
+</head>
+<body>
+    <form>
+        <label for = "firstname"> First Name</label>
+        <input type = "text" name = "firstname" id ="firstname" placeholder = "somesh"/>
+        <label for = "email">Email</label>
+        <input type = "email" name = "email" id="email" placeholder = "somesh@gmail.com"/>
+        <fieldset>
+            <label for = "updates">Email Me Updates</label>
+            <input type = "radio" id = "updates"  name = "updates" checked/>
+            <label for = "no-updates">Don't email me updates</label>
+            <input type = "radio" id = "no-updates" name = "updates">
+        </fieldset>
+        <input type = "submit" value = " Sign Up"/>
+    </form>
+</body>
+</html>
+<!-- checked keyword is used to mark the radio input because there aren't multiple radio elements 
+like check box-->

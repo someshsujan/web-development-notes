@@ -1,0 +1,103 @@
+body{
+    margin : 0;
+    padding : 0;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    height : 100vh;
+    text-align :center;
+    /* background-repeat: repeat;
+    background-position: center; */
+    background-size: cover;
+    background-image : url("/Users/someshs/Desktop/web-development-notes/css-html-signup/images/pexels-moose-photos-1037992.jpg")
+}
+.container{
+    background-color : white;
+    display : flex;
+    flex-direction :column;
+    justify-content: center;
+    border-radius : 5px;
+    box-shadow: 2px 2px 5px rgb(198, 189, 189);
+}
+label{
+    margin:5px 0;
+}
+label,input{
+    font-size : 15px;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+fieldset{
+    margin :5px 0 ;
+    border-radius: 5px;
+    border : 0;
+}
+form{
+    width :400px;
+    padding : 20px;
+    border-radius:5px;
+    display : flex;
+    flex-direction : column; 
+}
+.button-container{
+    width :400px;
+    padding : 20px;
+}
+input[type = "email"]:focus{
+    background-color:lightpink;
+
+}
+input[type = "text"]:focus{
+    background-color : lightblue;
+}
+input[type = "text"]{
+    border : 1px solid rgb(200, 195, 195);
+    border-radius: 5px;
+    padding :5px;
+    outline:none;
+}
+input[type = "email"]{
+    border : 1px solid rgb(200, 195, 195);
+    border-radius: 5px;
+    padding :5px;
+    outline : none;
+}
+.button-container {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button-container img {
+    border : none;
+    width : 170px;
+    margin:5px;
+}
+
+hr{
+    width :300px;
+    box-shadow: 1px 1px 1px rgba(255,255,255);
+}
+input[type = "submit"]{
+    border : none;
+    border-radius : 5px;
+    background : linear-gradient(45deg,lightblue,lightpink);
+    padding: 5px;
+    color:white;
+    outline : none;
+}
+input[type = "submit"]:hover{
+    background-color : rgb(246, 123, 141);
+}
+.exit{
+    display: flex;
+    flex-direction : row;
+    justify-content: flex-end;
+    padding:5px;
+    /*float: right*/
+    
+}
+h2{
+    display:flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

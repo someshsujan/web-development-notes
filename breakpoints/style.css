@@ -1,0 +1,52 @@
+/* #browser-tag{
+    display : none;
+}
+
+
+@media only screen and (min-width:650px){
+    #browser-tag{
+        display : block;
+    }
+}   */
+/* learn about bootstrap */
+/* div {
+    width:100px;
+    height:100px;
+    background-color:orange;
+    transform : scalex(0.5);
+    transform : scale(2);
+} */
+/* .rotate{
+    width:100px;
+    height:100px;
+    background-color:orange;
+    transform : rotate(45deg);
+    transform : skewy(40deg);
+
+} */
+/* keyforms */
+body{
+    display : flex;
+    justify-content : center;
+    align-items : center ;
+    height : 100vh;
+}
+
+div{
+    width:100px;
+    height:100px;
+    background-color:orange;
+    animation: 5s scaleY infinite ;
+}
+
+@keyframes scaleY {
+    0%{
+        transform : scaleY(1);
+    }
+    50%{
+        transform : scaleY(2);
+    }
+    100%{
+        transform : scaleY(1);
+    }
+}

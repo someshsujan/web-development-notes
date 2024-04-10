@@ -1,0 +1,17 @@
+.contact-section{
+    height :100vh;
+    display : flex;
+    flex-direction:column;
+    justify-content : center;
+    align-items :center;
+    text-align : center;
+}
+.contact-section ul {
+    list-style-type : none;
+    padding :0;
+    margin: 0;
+}
+section a{
+    color : rgb(233,227,110);
+}
+
